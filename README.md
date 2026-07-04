@@ -17,6 +17,7 @@ python build_trt_engine.py
 ```
 ## Evaluation
 Processing two 832×832 images on an Nvidia RTX 5060 Laptop takes approximately 160ms.
+The TensorRT engine achieves a ~20–25% speedup over the PyTorch model. This improvement primarily stems from optimizations applied to non-Mamba layers, including Conv+BN fusion and kernel auto-tuning. For the Mamba block, both frameworks invoke the same CUDA kernel, resulting in identical inference time.
 The engine model achieves accuracy on par with the original PyTorch model.
 
 ```md
