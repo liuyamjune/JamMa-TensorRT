@@ -1,0 +1,3 @@
+/home/yamjune/Documents/proj/Github_code/JamMa/trt_plugin/build/CMakeFiles/jam_plugin.dir
+/home/yamjune/Documents/proj/Github_code/JamMa/trt_plugin/build/CMakeFiles/edit_cache.dir
+/home/yamjune/Documents/proj/Github_code/JamMa/trt_plugin/build/CMakeFiles/rebuild_cache.dir

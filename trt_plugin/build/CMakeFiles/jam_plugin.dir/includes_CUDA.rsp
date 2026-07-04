@@ -1,0 +1,1 @@
+-I"/usr/local/TensorRT-10.16.0.72/include" -I"/home/yamjune/miniconda3/envs/jamma/lib/python3.10/site-packages/torch/include" -I"/home/yamjune/miniconda3/envs/jamma/lib/python3.10/site-packages/torch/include/torch/csrc/api/include" -isystem "/usr/local/cuda-13.2/targets/x86_64-linux/include" -isystem "/usr/local/cuda-13.2/targets/x86_64-linux/include/cccl"

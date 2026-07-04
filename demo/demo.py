@@ -15,10 +15,10 @@ if __name__ == '__main__':
         description='Image pair matching with JamMa',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
-        '--image1', type=str, default='../assets/figs/345822933_b5fb7b6feb_o.jpg',
+        '--image1', type=str, default='/home/yamjune/Documents/github_code/JamMa/assets/figs/345822933_b5fb7b6feb_o.jpg',
         help='Path to the source image')
     parser.add_argument(
-        '--image2', type=str, default='../assets/figs/479605349_8aa68e066d_o.jpg',
+        '--image2', type=str, default='/home/yamjune/Documents/github_code/JamMa/assets/figs/479605349_8aa68e066d_o.jpg',
         help='Path to the target image')
     parser.add_argument(
         '--output_dir', type=str, default='output/',
